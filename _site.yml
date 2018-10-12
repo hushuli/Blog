@@ -20,8 +20,9 @@ output: radix::radix_article
 
 collections:
   posts:
-    disqus: reproducible-finance-with-r
-    hidden: false
+    disqus: 
+      shortname: reproducible-finance-with-r
+      hidden: false
     share: [twitter, linkedin, facebook]
     subscribe: _subscribe.html
 
