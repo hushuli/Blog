@@ -1,0 +1,18 @@
+# generate expression data matrix
+exprsDataObj = generate.ExpressionData(nSamples1 = 6, nSamples2 = 6,
+																			 meanSamples = 0, sdSamples = 0.2,
+																			 nFeatures = 1000, nFeaturesUp = 50, nFeaturesDown = 50,
+																			 meanDynRange = 20, sdDynRange = 1,
+																			 meanDiffAbund = 1, sdDiffAbund = 0.2)
+exprsData = exprsDataObj[[1]]
+
+# insert 15% missing data with 100% missing not at random
+m.THR = quantile(exprsData, probs = 0.15)
+sd.THR = 0.1
+MNAR.rate = 100
+exprsData.MD.obj = insertMVs(exprsData,m.THR,sd.THR,MNAR.rate)
+exprsData.MD = exprsData.MD.obj[[2]]
+
+# perform missing data imputation
+obj.QRILC = impute.QRILC(exprsData.MD)
+exprsData.imputed = obj.QRILC[[1]]

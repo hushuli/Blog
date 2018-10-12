@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1538727973931.000,
+    "dirty" : false,
+    "encoding" : "ISO8859-1",
+    "folds" : "",
+    "hash" : "3362981754",
+    "id" : "2B517E05",
+    "lastKnownWriteTime" : 1538765216,
+    "last_content_update" : 1539303863436,
+    "path" : "~/GitHub/Raxie/First Blog/_posts/2018-10-05-asset-contribution-to-portfolio-volatility/asset-contribution-to-portfolio-volatility.Rmd",
+    "project_path" : "_posts/2018-10-05-asset-contribution-to-portfolio-volatility/asset-contribution-to-portfolio-volatility.Rmd",
+    "properties" : {
+        "cursorPosition" : "17,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

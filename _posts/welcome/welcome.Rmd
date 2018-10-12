@@ -1,0 +1,22 @@
+---
+title: "Welcome to Reproducible Blog"
+description: |
+  Welcome to our new blog, Reproducible Blog. We hope you enjoy 
+  reading what we have to say!
+author:
+  - name: Nora Jones 
+    url: https://example.com/norajones
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+date: 10-04-2018
+output:
+  radix::radix_article:
+    self_contained: false
+---
+
+
+library(radix)
+create_post("Asset Contribution to Portfolio Volatility")
+
+
+

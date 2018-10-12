@@ -1,0 +1,27 @@
+"0","symbols <- c(""SPY"",""IJS"",""EFA"",""EEM"",""AGG"")"
+"0",""
+"0","prices <- "
+"0","  getSymbols(symbols, src = 'yahoo', from = ""2005-01-01"", "
+"0","             auto.assign = TRUE, warnings = FALSE) %>% "
+"0","  map(~Cl(get(.))) %>% "
+"0","  reduce(merge) %>%"
+"0","  `colnames<-`(symbols)"
+"2","‘getSymbols’ currently uses auto.assign=TRUE by default, but will
+use auto.assign=FALSE in 0.5-0. You will still be able to use
+‘loadSymbols’ to automatically load data. getOption(""getSymbols.env"")
+and getOption(""getSymbols.auto.assign"") will still be checked for
+alternate defaults.
+
+This message is shown once per session and may be disabled by setting 
+options(""getSymbols.warning4.0""=FALSE). See ?getSymbols for details.
+
+"
+"2","
+WARNING: There have been significant changes to Yahoo Finance data.
+Please see the Warning section of ‘?getSymbols.yahoo’ for details.
+
+This message is shown once per session and may be disabled by setting
+options(""getSymbols.yahoo.warning""=FALSE).
+"
+"2","
+"
