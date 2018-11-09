@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
+    <loc>https://beta.rstudioconnect.com/content/3776/about.html</loc>
+    <lastmod>2018-10-11T22:19:00-07:00</lastmod>
+  </url>
+  <url>
     <loc>https://beta.rstudioconnect.com/content/3776/contributors.html</loc>
     <lastmod>2018-10-11T22:26:28-07:00</lastmod>
   </url>
@@ -9,12 +13,16 @@
     <lastmod>2018-10-05T11:46:07-07:00</lastmod>
   </url>
   <url>
+    <loc>https://beta.rstudioconnect.com/content/3776/test.html</loc>
+    <lastmod>2018-10-05T11:51:05-07:00</lastmod>
+  </url>
+  <url>
     <loc>https://beta.rstudioconnect.com/content/3776/posts/2018-10-04-reproducible-f/</loc>
-    <lastmod>2018-10-12T13:10:50-07:00</lastmod>
+    <lastmod>2018-11-08T19:02:16-08:00</lastmod>
   </url>
   <url>
     <loc>https://beta.rstudioconnect.com/content/3776/posts/2018-10-05-asset-contribution-to-portfolio-volatility/</loc>
-    <lastmod>2018-11-01T20:37:10-07:00</lastmod>
+    <lastmod>2018-11-01T20:37:11-07:00</lastmod>
   </url>
   <url>
     <loc>https://beta.rstudioconnect.com/content/3776/posts/welcome/</loc>
