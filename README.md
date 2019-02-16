@@ -1,2 +1,2 @@
-# Welcome to my blog
-Edit README.md
+# Welcome to My Blog
+https://hushuli.github.io/Blog/
