@@ -6,7 +6,7 @@ description: |
   computing environment.
 base_url: https://beta.rstudioconnect.com/content/3776/
 navbar:
-  logo: images/rstudio.png
+  logo: images/favicon.png
   right:
     - text: "Home"
       href: index.html
